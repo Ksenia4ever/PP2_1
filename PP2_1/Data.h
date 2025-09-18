@@ -5,13 +5,13 @@
 struct Data
 {
     int Value = 0;
-    int Freq = 1;
+    double Freq = 1;
 };
 
 struct DataResult : public Data
 {
-    int RealFreq = 1;
-    int Delta = 0;
+    double RealFreq = 1;
+    double Delta = 0;
 };
 
 struct TaskData
