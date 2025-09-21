@@ -128,11 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Analyzer.cpp" />
     <ClCompile Include="FileReader.cpp" />
     <ClCompile Include="Generator.cpp" />
     <ClCompile Include="PP2_1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Analyzer.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="FileReader.h" />
     <ClInclude Include="Generator.h" />
