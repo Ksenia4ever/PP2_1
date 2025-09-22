@@ -31,7 +31,7 @@ TaskData FileReader::ReadTaskData() const
         {
             isNCountLine = false;
 
-            isLineCorrect = static_cast<bool>(iss >> res.N);
+            isLineCorrect = static_cast<bool>(iss >> res.ExperimentCount);
             if (isLineCorrect)
             {
                 std::string extra;

@@ -9,7 +9,6 @@
 class Generator
 {
 public: 
-
 	Generator(const std::vector<Data>& distribution);
 
 	int operator()();

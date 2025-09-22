@@ -16,6 +16,6 @@ struct DataResult : public Data
 
 struct TaskData
 {
-    int N = 0;
+    int ExperimentCount = 0;
     std::vector<Data> Distribution;
 };

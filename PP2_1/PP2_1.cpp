@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
         Generator gen(taskData.Distribution);
 
         std::vector<int> generatedValues;
-        for (int n = 0; n < taskData.N; n++)
+        for (int experiment = 0; experiment < taskData.ExperimentCount; experiment++)
         {
            generatedValues.push_back(gen());
         }
